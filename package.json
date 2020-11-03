@@ -1,0 +1,20 @@
+{
+  "name": "mockserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "ngrok http 4000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "imagekit": "^3.1.1",
+    "json-server": "^0.16.2"
+  },
+  "engines": {
+    "node": "12.18.3",
+    "yarn": "1.22.4"
+  }
+}
